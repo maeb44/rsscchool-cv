@@ -1,4 +1,4 @@
-## [ROLLING SCOPES SCHOOL-cv](https://rs.school/)
+## [ROLLING SCOPES SCHOOL-*CV*](https://rs.school/)
 ---
 ### **Denis Karebidis**
 ---
@@ -15,9 +15,7 @@ Hello, my name is *Denis*. I am *21* years old. I am interested in programming. 
 ### Skills
 ---
 - JavaScript(Basic)
-- C++
 - Git
-- Python
 ### Code example
 ---
 ```
