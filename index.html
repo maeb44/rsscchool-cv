@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="icon" href="assets/paddles.ico" />
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0">
     <title>CV</title>
 </head>
 <body>
@@ -15,7 +15,7 @@
         <div class="container">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
                     <li class="nav-item"><a href="#aboutMe" class="nav-link">About Me</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
                     <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
@@ -26,22 +26,79 @@
         </div>
     </header>
 
-    <main class="visible-el">
-        <div class="container">
-            <section class="section" id="profile">
+    <main class="visible-el main-container">
+        <div class="container main-container" >
+            <section class="section" 
+            id="profile" 
+            style="width:100%; text-align:center">
                 <h1 class="section-title">Denis Karebidis</h1>
+                <hr style="width:22%"></hr>
+                <h2 class="section-title">Junior Front-End Developer</h2>
+            <hr></hr>
             </section>
-            <section class="section" id="contacts"></section>
-            <section class="section" id="aboutMe"></section>
-            <section class="section" id="skills"></section>
-            <section class="section" id="code"></section>
-            <section class="section" id="education"></section>
-            <section class="section" id="english"></section>
+            
+            <section class="section" id="contact">
+                <h2 class="section-title">Contact</h2>
+                <ul class="main-list-contact main-text">
+                    <li>Minsk, Belarus</li>
+                    <li><span>Phone:</span> 80291111111</li>
+                    <li><span>Email:</span> Kareb@example.com</li>
+                    <li><span>GitHub:</span> maeb44</li>
+                </ul>
+                
+            </section>
+            <section class="section" id="aboutMe">
+                <h2 class="section-title">About Me</h2>
+                <p class="main-text">Hello, my name is <span>Denis</span> I am 21 years old.
+                I am interested in programming and eager to master JavaScript, HTML, and CSS to build modern, interactive web applications. 
+                I love solving logical challenges and seeing my code come to life.
+                My goal is a hard-working and successfully complete the corses of rsschool.</p>
+            </section>
+            <section class="section" id="skills">
+                <hr class="line"></hr>
+                <h2 class="section-title">Skills</h2>
+                <ul class="main-list-contact main-text">
+                    <li>JavaScript(Basic)</li>
+                    <li>Git</li>
+                </ul>
+            
+            </section>
+            <section class="section" id="code">
+                <hr ></hr>
+                <h2 class="section-title">Code example</h2>
+                <pre class="main-text"><code>const a=new Array(10)
+let sum=0
+for(let i=0;i&lt;a.length;i++){
+  a[i]=Math.floor(Math.random()*(20))
+  console.log(a[i])
+  if(a[i]>8 && a[i]&lt;15) sum+=a[i]}
+console.log(&quot;Сумма равна &quot; + sum)
+             </code></pre>
+            </section>
+            <section class="section" id="education">
+                <hr class="line"></hr>
+                <h2 class="section-title">Education</h2>
+                <p class="main-text">Belarusian State University</p>
+            </section>
+            <section class="section" id="english">
+                <hr></hr>
+                <h2 class="section-title">English</h2>
+                <p class="main-text">A2 <i>C2 (coming soon)</i></p>
+                
+            </section>
+           
         </div>
     </main>
    
-    <footer class="visible-el">
-        <div class="container"></div>
+    <footer class="visible-el header">
+        <div class="container footer-container">
+            <section class="section">
+                <p class="footer-text nav-link" >© 2025 <a href="https://github.com/maeb44" class="nav-link">Maeb44</a></p>
+            </section>
+            <section class="section">
+                <a href="https://rs.school/"><img src="/assets/img/rs_school.svg" style="height: 30px; height:30px;" alt="rsschool" class="rslogo"><img></a>
+            </section>
+        </div>
     </footer>
 
 
