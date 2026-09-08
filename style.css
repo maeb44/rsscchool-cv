@@ -2,16 +2,11 @@
   .section {
     width: 100%;
   }
-@media (min-width: 768px) {
-
-    
-}
 }
 *{
   box-sizing: border-box;
 }
 html {
-
   height: 100%;
   margin: 0;
   scroll-behavior: smooth;
