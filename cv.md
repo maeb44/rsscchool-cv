@@ -1,44 +1,40 @@
 ## [ROLLING SCOPES SCHOOL-*CV*](https://rs.school/)
 ---
-### **Denis Karebidis**
+### **Denis Kovalenko**
 ---
 ### **My Contact**
 ---
 * **Location:** Minsk, Belarus
-* **Phone:** 80291111111 
-* **Email:** Kareb@example.com
+* **Phone:** 80295643247
+* **Email:** denchik2004@yandex.ru
 * **GitHub:** [maeb44](https://github.com/maeb44)
 
 ### About Me
 ---
-Hello, my name is *Denis*. I am *21* years old. I am interested in programming. My goal is a hard-working and successfully complete the corses of rsschool.
+Hello, my name is *Denis*. I am *22* years old. I am interested in programming. My goal is a hard-working and successfully complete the corses of rsschool.
 ### Skills
 ---
-- JavaScript(Basic)
-- Git
+- JavaScript<br>⭐⭐⭐✰✰
+- Git<br>⭐⭐⭐✰✰
+- TypeScript(Basic)<br>⭐⭐✰✰✰
+- HTML/CSS(SCSS/SASS) <br>⭐⭐⭐⭐✰
 ### Code example
 ---
 ```
-const a=new Array(10)
-
-let sum=0
-
-for(let i=0;i<a.length;i++){
-	a[i]=Math.floor(Math.random() * (20 +10) - 10)
-	console.log(a[i])
-	if(a[i]>8 && a[i]<15){
-		sum+=a[i]
-	}
-}
-
-console.log("Сумма равна " + sum)
+const sumOfRange = Array.from({length:10}, () => Math.floor(Math.random()*100))
+.reduce((acc,cur) => acc + (cur >= 10 && cur <= ? cur : 0),0)
 ```
+### Experience
+---
+- **[Async-rase](https://github.com/maeb44/async-race/tree/async-race)**
+- **[NotFightClub]()** [Deploy](https://maeb44.github.io/NotFightClub/)
 ### Education
 ---
 - **Belarusian State University**
    - Information resource manager
+- **[RSSchool Bootcamp](https://app.rs.school/certificate/z3s3f2up)**
 ### Level of English
 ---
-**A2**
+**B1**
 *C2(coming soon)*
 
